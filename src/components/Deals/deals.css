@@ -1,0 +1,41 @@
+.btn-next{
+    background-color: #2a55e5;
+    border-radius: 20px;
+    width: 28px;
+    height: 28px;
+}
+
+.best-deals{
+    padding: 15px;
+}
+
+.deals{
+    padding: 10px;
+    background-color: #fff;
+}
+
+.deals-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    border: 0.1px solid #e2e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    width: 200px;
+}
+
+.product img{
+    width: 60%;
+    height: 150px;
+}

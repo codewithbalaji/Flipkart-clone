@@ -1,0 +1,55 @@
+.footer-content{
+    display: flex;
+    background-color: #212121;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    font-size: 12px;
+    color: #fff;
+    padding: 1px;
+}
+
+.content{
+    padding: 25px;
+}
+
+.content h2{
+    font-size: 12px;
+    color:#878787;
+    padding-top: 18px;
+}
+
+.icons{
+    display: flex;
+    
+}
+
+.icons li{
+   padding-right: 18px;
+}
+
+.content-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensure it spans the full width */
+    padding: 20px 0;
+    background-color: #212121;
+}
+
+.content-last ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; /* Ensures items remain in a row */
+    width: 100%;
+    justify-content:space-around; /* Space items evenly */
+}
+
+
+
+hr{
+    opacity: 90%;
+   border: 1px solid #212121;
+}

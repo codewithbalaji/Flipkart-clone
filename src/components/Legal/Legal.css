@@ -1,0 +1,20 @@
+.legal h1, .legal h2, .legal h3{
+    font-weight: 500;
+    color: gray;
+    font-size: 18px;
+}
+
+.legal p, .legal li{
+    font-weight: 300;
+    color: gray;
+    font-size: 12px;
+}
+
+.legal b{
+    color: gray;
+    font-size: 12px;
+}
+
+.legal {
+    padding: 15px;
+}
