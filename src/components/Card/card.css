@@ -2,8 +2,26 @@
     padding: 15px;
 }
 
+
 .card-main{
     display: flex;
     justify-content: space-around;
     background-color: #fff;
+    padding: 15px;
 }
+
+.card-main img{
+    width: 65px;
+
+}
+.arrow {
+    width: 15px !important;
+    margin-left: 5px;
+}
+.card-main p{
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+
+}
+

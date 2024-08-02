@@ -3,6 +3,10 @@ import facebook from "../../assets/facebook.svg";
 import x from "../../assets/x.svg";
 import yt from "../../assets/yt.svg";
 import paymentMethod from "../../assets/payment-method.svg";
+import advertise from "../../assets/advertise-img.svg";
+import giftCards from "../../assets/gift-cards-img.svg";
+import helpCenter from "../../assets/help-centre-img.svg";
+import sellImg from "../../assets/sell-img.svg";
 
 
 const Footer = () => {
@@ -86,10 +90,10 @@ const Footer = () => {
         
           <div className="content-last">
           <ul>
-            <li>Become a Seller</li>
-            <li>Advertise</li>
-            <li>Gift Cards</li>
-            <li>Help Center</li>
+            <li><img src={sellImg} alt="" /> Become a Seller</li>
+            <li><img src={advertise} alt="" />Advertise</li>
+            <li><img src={giftCards} alt="" />Gift Cards</li>
+            <li><img src={helpCenter} alt="" />Help Center</li>
             <li>&copy;2007-2024 Flipkart.com</li>
             <li><img src={paymentMethod} alt=""  /></li>
           </ul>

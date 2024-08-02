@@ -39,3 +39,9 @@
     width: 60%;
     height: 150px;
 }
+
+.deals-head h2{
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}

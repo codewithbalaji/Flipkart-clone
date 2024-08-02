@@ -35,6 +35,8 @@ nav {
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
+    width: 45px;
+    height: 40px;
 }
 
 .nav-items {

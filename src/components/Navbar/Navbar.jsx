@@ -5,6 +5,9 @@ import login from "../../assets/login.svg";
 import cart from "../../assets/cart.svg";
 import  seller from "../../assets/seller.svg";
 import  dots from "../../assets/dots.svg";
+import downArrow from "../../assets/down-arrow.svg"
+
+
 
 const Navbar = () => {
   return (
@@ -41,7 +44,7 @@ const Navbar = () => {
       </div>
       <div className="nav-items">
         <p className="nav-icon"><img src={login} alt="Login Icon" /></p>
-        <p>Login</p>
+        <p>Login<img className="arrow" src={downArrow} alt="" /></p>
         <p className="nav-icon"><img src={cart} alt="Cart Icon" /></p>
         <p>Cart</p>
         <p className="nav-icon"><img src={seller} alt="Become a Seller Icon" /></p>

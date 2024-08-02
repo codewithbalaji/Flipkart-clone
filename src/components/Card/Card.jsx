@@ -7,6 +7,7 @@ import home from "../../assets/home.webp"
 import appliances from "../../assets/appliances.webp"
 import travel from "../../assets/travel.webp"
 import toys from "../../assets/toys.webp"
+import downArrow from "../../assets/down-arrow.svg"
 
 const Card = () => {
   return (
@@ -22,15 +23,16 @@ const Card = () => {
         </div>
         <div>
           <img src={Fashion} alt="" />
-          <p>Fashion</p>
+          <p>Fashion<img className="arrow" src={downArrow} alt="" /></p>
         </div>
         <div>
           <img src={Electronics} alt="" />
-          <p>Electronics</p>
+          <p>Electronics<img className="arrow" src={downArrow} alt="" /></p>
         </div>
         <div>
           <img src={home} alt="" />
-          <p>Home & Furniture</p>
+          <p>Home &<br /> 
+            Furniture<img className="arrow" src={downArrow} alt="" /></p>
         </div>
         <div>
           <img src={appliances} alt="" />
@@ -42,7 +44,7 @@ const Card = () => {
         </div>
         <div>
           <img src={toys} alt="" />
-          <p>Beauty, Toys & More</p>
+          <p>Beauty, Toys <br />& More <img className="arrow" src={downArrow} alt="" /></p>
         </div>
       </div>
     </section>
